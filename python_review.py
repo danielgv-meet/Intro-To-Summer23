@@ -47,5 +47,9 @@ def main():
 	for day in above_avg:
 		print(" " + day + ",", end='') 
 
+	temperatures = sorted(temperatures, reverse=True)
+	print("\n" + str(temperatures))
+
+
 if __name__ == "__main__":
 	main()
